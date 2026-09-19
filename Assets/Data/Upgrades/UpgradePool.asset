@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:yousandi.cn,2023:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 019a22258b579f74d9ca91d8b2adec68, type: 3}
+  m_Name: UpgradePool
+  m_EditorClassIdentifier: 
+  _upgrades:
+  - {fileID: 11400000, guid: 9a4163d54e40c5a4fa0b2217aae7d078, type: 2}
+  - {fileID: 11400000, guid: b60d5858f9e10484c8fb19dff8737b0e, type: 2}
+  - {fileID: 11400000, guid: da8d476231138c643b7f027dd03f5f57, type: 2}
+  - {fileID: 11400000, guid: 6c48ebc2514d20045990fcfbfccd3157, type: 2}
+  - {fileID: 11400000, guid: 53d26e5ca93338c42bd7cd207b15a893, type: 2}

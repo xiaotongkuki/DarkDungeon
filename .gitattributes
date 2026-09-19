@@ -1,0 +1,36 @@
+# Normalise line endings in text files, but never rewrite the bytes of anything
+# Unity serialises or imports: a changed byte in a .meta is a changed GUID, and a
+# changed byte in a binary asset is a corrupted asset.
+* text=auto
+
+*.cs           text diff=csharp
+*.shader       text
+*.cginc        text
+*.hlsl         text
+*.asmdef       text
+*.json         text
+*.inputactions text
+*.md           text
+*.txt          text
+*.xml          text
+*.yaml         text
+*.yml          text
+
+*.meta         -text
+*.unity        -text
+*.scene        -text
+*.prefab       -text
+*.asset        -text
+*.preset       -text
+*.anim         -text
+*.controller   -text
+
+*.png          binary
+*.jpg          binary
+*.jpeg         binary
+*.psd          binary
+*.ttf          binary
+*.otf          binary
+*.mp3          binary
+*.wav          binary
+*.ogg          binary

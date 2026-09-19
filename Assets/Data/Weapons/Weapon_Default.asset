@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:yousandi.cn,2023:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70daa2dbe17ef4f4d83adfa03dedbd24, type: 3}
+  m_Name: Weapon_Default
+  m_EditorClassIdentifier: 
+  _projectilePrefab: {fileID: 320325635021675038, guid: 53d14c1dfd374764a82dc0f22276e7d4, type: 3}
+  _fireInterval: 0.5
+  _range: 8
+  _damage: 1
+  _projectileSpeed: 12
+  _projectileLifetime: 1
+  _projectileHitRadius: 0.35

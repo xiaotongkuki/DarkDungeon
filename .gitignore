@@ -1,0 +1,70 @@
+# ---------------------------------------------------------------------------
+# Unity / Tuanjie generated folders
+# Library alone is ~2 GB here; none of it belongs in the repository.
+# ---------------------------------------------------------------------------
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Uu]serSettings/
+[Mm]emoryCaptures/
+[Rr]ecordings/
+.utmp/
+[Cc]rashlytics/
+
+# ---------------------------------------------------------------------------
+# Editor / IDE generated project files (Unity regenerates them on open)
+# ---------------------------------------------------------------------------
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+*.pidb.meta
+*.pdb.meta
+*.mdb.meta
+ExportedObj/
+.consulo/
+.vs/
+.idea/
+.vscode/
+
+# ---------------------------------------------------------------------------
+# Crash reports and player builds
+# ---------------------------------------------------------------------------
+sysinfo.txt
+crashlytics-build.properties
+*.apk
+*.aab
+*.unitypackage
+*.app
+/[Aa]ssets/[Aa]ddressable[Aa]ssets[Dd]ata/*/*.bin*
+
+# ---------------------------------------------------------------------------
+# Tuanjie Codely tooling (local caches, ~190 MB combined)
+# ---------------------------------------------------------------------------
+.codely-cli/
+.codely.packages/
+.codely/
+.codelyignore
+
+# ---------------------------------------------------------------------------
+# Project specifics
+#
+# Assets/Screenshots is tool output: the capture tools rewrite it on every run,
+# so committing it would only add churn. Curated images for the README live in
+# docs/images instead.
+# ---------------------------------------------------------------------------
+/[Aa]ssets/Screenshots/
+/[Aa]ssets/Screenshots.meta
